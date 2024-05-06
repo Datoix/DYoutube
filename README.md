@@ -34,4 +34,6 @@ dyoutube.cli.exe -f path/to/file.txt -o path/to/output/folder
 
 - **Example playlist**
 
+```
 dyoutube.cli.exe -p https://link_to_playlist -o path/to/output/folder
+```
