@@ -30,9 +30,8 @@ public class App {
 				filePath = await _youtube.GetDefaultPathAsync(_options.Link!, _options.Output!);	
 			} else {
 				filePath = Path.Combine(_options.Output!, _options.Name);
+				filePath += ".mp3";
 			}
-
-			filePath += ".mp3";
 
 			await _youtube.DownloadVideoAsync(_options.Link!, filePath);
 
